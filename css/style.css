@@ -1,0 +1,27 @@
+
+
+.jumbotron{
+background-image: url(https://s-media-cache-ak0.pinimg.com/originals/de/27/66/de2766561673d8c61c8a639ca4a03524.jpg); 
+background-position: center center;
+}
+
+h1 {
+	color: white !important;
+	font-size: 100px !important;
+	font-family: "Brush Script MT";
+	text-align: center;
+}
+
+body{
+	background-image: url(http://wallpapercave.com/wp/KQ1qA4s.jpg);
+	background-position: center center;
+}
+
+.row2images
+{
+	height: 219px !important;
+	display: block;
+	max-width: 100% !important;
+}
+
+
