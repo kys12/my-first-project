@@ -4,21 +4,40 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<!--Search google fonts to embd cooler fonts! https://fonts.google.com/?selection.family=Abril+Fatface -->
+
 </head>
 
 <body>
 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">My First Website </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li> 
+      <li><a href="#">Page 3</a></li> 
+    </ul>
+  </div>
+</nav>
+
 	<div class= "container">
+
 
 		<div class = "row">
 
-			<div class = "col-md-12 hidden-xs">
+			<div class = "col-md-12 col-sm-12 hidden-xs">
 			<!-- hidden-xs this hides it on the small screen e.g. mobiles --> 
 			<div class="jumbotron text-center">
 			<!-- the text-center allows you to center everything on jumbotron/bootstrap -->
 
-				<h1>Code at Uni</h1>
-				<p><a class="btn btn-primary btn-lg" href="about.html" role="button">Large button</a></p>
+				<h1 class= "animated bounceindown"> Dysmorphism / Congenital Abnormalities</h1>
+				<!-- Animated bounceindown adds in the animation! Add this to class after downloading the animate.css file from online --> 
+				<p><a class="btn btn-primary btn-lg animated bounceindown" href="about.html" role="button">Large button</a></p>
 				<!--THis will link to another page on your website to 'about me' or your computer will open up your 'aboutme.html' from your documents -->
 
 				<p><button type="button" class="btn btn-success" href="https://www.google.com">Google</button></p>
@@ -30,15 +49,21 @@
 			</div>
 			<!-- Now close the div for both column and row -->
 		</div>
+		
+
 		<!-- Second row -->
 		<div class="row">
 			<div class = "col-md-4 col-sm-4">
 			<!-- put the col-sm-4 so it also adjusts to a small screen size or else thumbnail will take up the whole width -->
 				<div class="thumbnail">
-	      			<img src= "http://cdn.ltstatic.com/2013/October/MS165271_942long.jpg" alt="Fireworks" class="img-circle img-responsive row2images">
+	      			<img src= "https://palmreadingperspectives.files.wordpress.com/2011/05/down-syndrome-karyotype-face-hand-foot.jpg" alt="Down Syndrome" class="img-circle img-responsive row2images">
 	      			<div class="caption">
-        				<h2>Fireworks</h2>
-        				<p>Something something</p>
+        				<h2>Down's Syndrome</h2>
+        				<ul>
+	        				<li>Trisomy 21 - most common autosomal trisomy </li>
+	        				<li>Incidence 1 in 650 </li>
+	        				<li>Severe learning difficulties</li>
+	        			</ul>
         			</div>
         		</div>
 			</div>
@@ -46,11 +71,15 @@
 			<div class = "col-md-4 col-sm-4 bg-img">
 				
 				<div class="thumbnail">
-					<img src= "http://www.w3schools.com/w3images/lights.jpg" alt="Northern Lights" class="img-circle img-responsive row2images row2images" >
+					<img src= "https://s-media-cache-ak0.pinimg.com/736x/31/f7/9a/31f79a6a04cc20c96cd26e9c56dd22b0.jpg" alt="Turner Syndrome" class="img-circle img-responsive row2images row2images" >
 					<!-- to adjust size of images and thumbnail - best use CSS!-->
 					<div class="caption">
-        				<h2>Northern</h2>
-        				<p>Something something</p>
+        				<h2>Turner's Syndrome</h2>
+        				<ul>
+	        				<li>>95% results in early miscarriage</li>
+	        				<li>Incidence 1 in 2500</li>
+	        				<li>Antenatal USS-->foetal oedema of neck/hands/feet(+ cystic hygroma) </li>
+	        			</ul>
         			</div>
 				</div>
 
@@ -62,8 +91,13 @@
 				<!-- the !important on css overrides everything else
 				so before the img-responsive and thumbnail overrided the other responses-->
 					<div class="caption">
-        				<h2>Bootstrap</h2>
-        				<p>Something something</p>
+        				<h2>Less Common</h2>
+        				<ul>
+	        				<li>Inborn errors of metabolism </li>
+	        				<li>Congenital Infections </li>
+	        				<li>Teratogenesis e.g. maternal alcohol use </li>
+	        			</ul>
+        				
         			</div>
         		</div>
 
@@ -83,29 +117,185 @@
   		<!-- Fourth Row -->
   			<div class = "col-md-2 hidden-sm hidden-xs">
   			<!-- this hides it from small and extra small screens -->
-	  			<h3> Pictures Feed</h3>
+	  			<h3> Pictures</h3>
 	  			<img src="http://www.w3schools.com/w3images/lights.jpg" class="img-responsive img-thumbnail">
 	        	<img src="http://www.w3schools.com/w3images/lights.jpg" class="img-responsive img-thumbnail">
 	        	<img src="http://www.w3schools.com/w3images/lights.jpg" class="img-responsive img-thumbnail">
 	        	<img src="http://www.w3schools.com/w3images/lights.jpg" class="img-responsive img-thumbnail">
       		</div>
 
-      		<div class = "col-md-10 col-sm-12 hidden-xs">
-      			<h3>Information <p>
-      			Thanks</h3>
-      			<div class="media">
+      		<div class = "col-md-10 col-sm-12 hidden-xs ">
+      			<h3>Presenting Features</h3>
+      			<div class="media features1" >
   					<div class="media-left">
 	    				<a href="#">
-	      				<img class="media-object" src="http://www.w3schools.com/w3images/lights.jpg" alt="Lights" width="142px" height = "98px">
+	      				<img class="media-object" src="http://2.bp.blogspot.com/-m6vSV04C0Y4/UZKZnJnIfHI/AAAAAAAAAmE/fDnFGeppFsk/s1600/photo.JPG" alt="Lights" width="142px" height = "98px">
     					</a>
   					</div>
   					<div class="media-body">
-    					<h4 class="media-heading">Northern Lights</h4>
-    
+    					<h4 class="media-heading"><b>Down Syndrome</b>
+    					</h4><br>
+    						<ul>
+    							<li>Typical craniofacial appearance
+    								<ul>
+    									<li>Round face and flat nasal bridge</li>
+    									<li>Epicanthic folds (see image) - fold of skin running across inner edge of palpebral fissure </li>
+    									<li>Brushfield spots in iris (pigmented spots)</li>
+    									<li> Small ears, small mouth, protruding tongue</li>
+    									<li>Flat occiput and third fontanelle</li>
+    								</ul>
+    							</li>
+    							<li>Other anomalies
+    								<ul>
+    									<li>Short neck, Single palmar creases, wide 'sandal' gap between toes</li>
+    									<li>Hypotonia, Congenital heart defect, Duodenal atresia </li>
+    								</ul>
+    							</li>
+    							<li>Later medical problems
+    								<ul>
+    									<li>Delayed motor milestones, severe learning difficulties </li>
+    									<li>Small stature, Hearing impairment (secretory otitis media), Visual impairment (cataracts, squints, myopia), Increased risk of hypothyroidism, coeliac disease and leukaemia/tumours, Epilepsy, Alzheimeri's disease</li>
+    								</ul>
+    							</li>
+    						</ul>
   					</div>
   				</div>
+  				<br><br>
+  				
+  				<div class = "media features1">
+  					<div class="media-left">
+	    				<a href="#">
+	      				<img class="media-object" src="http://2.bp.blogspot.com/-m6vSV04C0Y4/UZKZnJnIfHI/AAAAAAAAAmE/fDnFGeppFsk/s1600/photo.JPG" alt="Lights" width="142px" height = "98px">
+    					</a>
+  					</div>
+
+  					<div class= "media-body">
+  					<h4 class="media-heading"><b>Turner Syndrome</b>
+    					</h4><br>
+    						<ul>
+    							<li>
+    							</li>
+    						</ul>
+
+  					</div>
+
+  				</div>
+
+      		</div>
+      		<br><br> 
+
+      	</div>
+      	<br><br>
+
+      	<div class="row">
+      	<!--Fifth Row -->
+      		<div class = "col-md-6 col-sm-6 hidden-xs">
+      			<h2 class="page-header"> The Weekend </h2>
+      			<div class="embed-responsive embed-responsive-4by3">
+  					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kBsycvSU6r8"></iframe>
+
+				</div>
+      		</div>
+
+      		<div class = "col-md-6 col-sm-6 hidden-xs">
+      			<h2 class="page-header"> The Chainsmokers </h2>
+      			<div class="embed-responsive embed-responsive-4by3">
+  					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PT2_F-1esPk"> </iframe>
+
+				</div>
       		</div>
       	</div>
+      	<br><br>
+
+      	<div class="row">
+      	<!--Sixth Row -->
+      		<div class = "col-md-4 col-sm-4 hidden-xs">
+      			<div class="panel panel-primary">
+      				<div class="panel-heading">SBA1</div>
+  					<div class="panel-body"> What is the right answer to this question?
+  						<ul class="list-group">
+  							<li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+  							<li class="list-group-item list-group-item-warning">Cras sit amet nibh libero</li>
+  							<li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+  							<li class="list-group-item list-group-item-warning">Vestibulum at eros</li>
+						</ul>
+  					</div>
+				</div>
+      		</div>
+      	
+      		<div class = "col-md-4 col-sm-4 hidden-xs">
+      			<div class="panel panel-primary">
+      				<div class="panel-heading">SBA1</div>
+  					<div class="panel-body"> What is the right answer to this question?
+  						<ul class="list-group">
+  							<li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+  							<li class="list-group-item list-group-item-warning">Cras sit amet nibh libero</li>
+  							<li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+  							<li class="list-group-item list-group-item-warning">Vestibulum at eros</li>
+						</ul>
+  					</div>
+				</div>
+      		</div>
+
+      		<div class = "col-md-4 col-sm-4 hidden-xs">
+      			<div class="panel panel-primary">
+      				<div class="panel-heading">SBA1</div>
+  					<div class="panel-body"> What is the right answer to this question?
+  						<ul class="list-group">
+  							<li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+  							<li class="list-group-item list-group-item-warning">Cras sit amet nibh libero</li>
+  							<li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+  							<li class="list-group-item list-group-item-warning">Vestibulum at eros</li>
+						</ul>
+  					</div>
+				</div>
+      		</div>
+
+      	</div>
+      	<!-- End of sixth row -->
+
+      	<div class="row">
+      	<!--Seventh Row -->
+      	<!-- 12 is the magic number, col-md-2, then div- row, then div-col-mid-6-->
+      		<div class="col-md-2 col-sm-4 hidden-xs">
+      		<h4>Social Media</h4>
+      			<div class="row">
+      				<div class = "col-md-6">
+      				<a href="https://www.facebook.com">
+      					<img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" height="70px" width="70px" >
+      				</a>
+      				</div>
+
+      				<div class = "col-md-6">
+      				<a href="https://www.linkedin.com">
+      					<img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" class="imgmedia" height="70px" width="70px">
+      				</a>
+      				</div>
+      			</div>
+
+      			<div class="row">
+      				<div class = "col-md-6">
+      				<a href="https://www.instagram.com">
+      					<img src="http://3835642c2693476aa717-d4b78efce91b9730bcca725cf9bb0b37.r51.cf1.rackcdn.com/Instagram_App_Large_May2016_200.png" height="70px" width="70px">
+      				</a>
+      				</div>
+
+      				<div class = "col-md-6">
+      				<a href="https://twitter.com/"> 
+      					<img src="http://www.freeiconspng.com/uploads/twitter-icon--icons-for-twitter--twitter-vector-icons-6.png" class="imgmedia" height="70px" width="70px">
+      				</a>
+      				</div>
+      			</div>
+
+      		</div>
+
+      		<div class="col-md-10 hidden-xs">
+      		
+      		<h3>Presenting Features</h3>
+      		</div>
+
+      	</div>
+
      </div>
     
 </body>
