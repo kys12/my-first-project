@@ -1,14 +1,15 @@
 
 
 .jumbotron{
-background-image: url(https://s-media-cache-ak0.pinimg.com/originals/de/27/66/de2766561673d8c61c8a639ca4a03524.jpg); 
+background-image: url(http://www.myfreetextures.com/wp-content/uploads/2014/12/star-474864.jpg); 
 background-position: center center;
+background-size: 1000px;
 }
 
 h1 {
 	color: white !important;
-	font-size: 100px !important;
-	font-family: "Brush Script MT";
+	font-size: 65px !important;
+	font-family:  'Abril Fatface', cursive;
 	text-align: center;
 }
 
@@ -20,8 +21,22 @@ body{
 .row2images
 {
 	height: 219px !important;
-	display: block;
+	width: 219px !important;
+	display: block !important;
 	max-width: 100% !important;
 }
 
+.features1
+{background-color:white;
+	border-radius: 25px;
+	border-color: red;
+	border-width: 25px;
+	border-style:solid;
+padding: 10px;}
+
+.imgmedia {
+	position: absolute;
+    left: 0px;
+    
+}
 
